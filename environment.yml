@@ -1,0 +1,17 @@
+name: deep-text
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - cudnn=7.6.0=cuda10.0_0
+  - lmdb
+  - python-lmdb
+  - natsort
+  - fire
+  - python=3.6
+  - tensorflow-gpu
+  - pillow
+  - pip
+  - pip:
+      - torch
+      - torchvision
